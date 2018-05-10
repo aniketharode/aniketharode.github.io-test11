@@ -1,0 +1,763 @@
+	@CHARSET "ISO-8859-1";
+	
+	
+.container{
+	width: 100%;
+    height: 350vh;
+   background:#DFD297;
+	display:flex;
+	flex-direction:column;
+}
+
+/***********start of the firstcontainer********/
+
+
+.firstContainer{
+	display:flex;
+	flex-wrap:wrap;
+	 position: relative;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  transition: .5s ease;
+  background-color: #008CBA;
+ 
+}
+.firstContainer:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.topHeaderImg{
+    width: 80vw;
+    height:30vh;
+    
+}
+
+.myPhoto{
+	width: 17vw;
+    height:30vh;
+    background: blue;
+}
+
+
+/******end of the first container********/
+
+
+/*****added container for about me********/
+
+.aboutMeContainer{
+	
+	background: yellow;
+	width: 40vw;
+	height: 50vh;
+	margin-left: 55%;
+	margin-top: 5%;
+	 box-shadow: 10px 10px;
+	
+}
+
+
+/*****end of the added container for about me********/
+
+.secondContainer{
+	
+	height: 50vh;
+	width: 60vw;
+	margin-top: 5%;
+	background: blue;
+	background: url(cricket.jpg) left top no-repeat , url(football.jpg) right bottom no-repeat,url(music.jpg) right top no-repeat,url(movies1.jpg) left bottom no-repeat;
+    background-size: 30vw 30vh;
+    background-repeat: no-repeat;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+
+/*belongs to second container*/
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    transition-duration: 0.4s ease;
+    cursor: auto;
+    height: 5vh;
+   width: 60vw;
+    
+    }
+    
+   
+
+.button1:hover{
+    background-color: #4CAF50;
+    font-size: 1.8em;
+     color: black;
+     text-shadow: 2px 2px 4px white;
+}
+
+
+.hobbieContainer{
+	
+	display:flex;
+	flex-direction:column;
+}
+
+.hobbies{
+	height: 6vh;
+	width: 4vw;
+	 font-size: 2.5em;
+	 color:white;
+	transition: width 2s;
+	margin-top: 1%;
+	border-bottom: 6px solid red;
+}
+
+.hobbies:hover{
+	width: 300px;
+	background: orange;
+}
+
+
+
+/*end of second container*/
+
+/*******start of the third container*************/
+
+
+.thirdContainer{
+	
+	height: 40vh;
+	width: 60vw;
+	margin-top: 5%;
+	margin-left: 30%;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    
+}
+
+
+
+/*******start of the sub third container*************/
+.subThirdContainer{
+	background: gray;
+	width: 100%;
+	height: 50%;
+	position: relative;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.img{
+	display: block;
+	width: 10vw;
+	height: 15vh;
+	margin-left: 5%;
+	opacity:0.9;
+	
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 70%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.subThirdContainer:hover .overlay1 {
+  bottom: 0;
+  height: 100%;
+}
+
+.img1{
+	display: block;
+	width: 10vw;
+	height: 15vh;
+	margin-left: 5%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*******end of the sub third container*************/
+
+
+.subThirdContainer1{
+	background: white;
+	width: 100%;
+	height: 50%;
+	position: relative;
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.subThirdContainer1:hover .overlay2 {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+/*******end thrird container*************/
+
+
+/*********start of the fourth container**********/
+
+.fourthContainer{
+	background: url(sportsback.jpg) left top no-repeat;
+	height: 40vh;
+	width: 80vw;
+	margin-top: 5%;
+	background-size: 80vw 40vh;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px grey;
+}
+
+ 
+
+
+
+
+/*********end of the fourth container****************************/
+
+
+
+.fifthContainer{
+	
+	background: url(sportsback.jpg) left top no-repeat;
+	height: 40vh;
+	width: 80vw;
+	margin-top: 10%;
+	background-size: 80vw 40vh;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px grey;
+	overflow: scroll;
+	
+}
+
+
+
+@media screen and (max-width:800px){
+	
+	
+	.container{
+	width: 100%;
+    height: 380vh;
+   
+}
+	
+	.firstContainer{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+	
+	
+	.topHeaderImg{
+    width: 90vw;
+    height:30vh;
+    
+}
+
+.myPhoto{
+	width: 20vw;
+    height:25vh;
+    background: blue;
+    
+}
+.text {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  
+}
+
+/***********end of first container********/
+
+.aboutMeContainer{
+	
+	background: yellow;
+	width: 40vw;
+	height: 50vh;
+	margin-left: 45%;
+	margin-top: 5%;
+	 box-shadow: 10px 10px;
+	
+}
+
+/*****end of the added container for about me********/
+
+.secondContainer{
+	
+	height: 50vh;
+	width: 60vw;
+	margin-top: 5%;
+	background-size: 30vw 25vh;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+/*belongs to second container*/
+
+.button1 {
+    background-color: #4CAF50; 
+    color: black; 
+    font-size: 1.8em;
+    transition-duration: 0.4s ease;
+    cursor: auto;
+    height: 5vh;
+   text-shadow: 2px 2px 4px white;
+    
+    }
+    
+   
+
+.button1:hover{
+    background-color: #4CAF50;
+    font-size: 1.8em;
+     color: black;
+     text-shadow: 2px 2px 4px white;
+}
+
+.hobbies{
+	height: 6vh;
+	width: 4vw;
+	 font-size: 2.0em;
+	 color:white;
+	transition: width 2s;
+	margin-top: 1%;
+	border-bottom: 6px solid red;
+}
+
+.hobbies:hover{
+	width: 300px;
+	background: orange;
+}
+
+
+
+/*end of second container*/
+
+
+/*******start of the third container*************/
+
+
+.thirdContainer{
+	
+	height: 40vh;
+	width: 78vw;
+	margin-top: 5%;
+	margin-left: 1%;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    
+}
+
+
+/*******start of the sub third container*************/
+.subThirdContainer{
+	background: gray;
+	width: 100%;
+	height: 80%;
+	position: relative;
+	
+}
+
+.img{
+	display: block;
+	width: 20vw;
+	height: 15vh;
+	margin-left: 5%;
+	opacity:0.9;
+	
+}
+
+
+.overlay1 {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: visible;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  overflow: visible;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*******end of the sub third container*************/
+
+
+.subThirdContainer1{
+	background: white;
+	width: 100%;
+	height: 77%;
+	position: relative;
+	
+	
+}
+
+.img1{
+	display: block;
+	width: 20vw;
+	height: 15vh;
+	margin-left: 5%;
+	opacity:0.9;
+	
+}
+
+
+.overlay2 {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: visible;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  overflow: visible;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*******end thrird container*************/
+
+
+/*********start of the fourth container**********/
+
+.fourthContainer{
+	background: url(sportsback.jpg) left top no-repeat;
+	height: 40vh;
+	width: 80vw;
+	margin-top: 30%;
+	background-size: 80vw 40vh;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px grey;
+}
+
+ 
+
+
+
+
+/*********end of the fourth container**********/
+
+}
+
+
+@media screen and (max-width:599px){
+	
+	/***********end of first container********/
+	
+	
+	.container{
+	width: 100%;
+    height: 420vh;
+   background:#DFD297;
+	
+}
+
+
+.topHeaderImg{
+    width: 90vw;
+    height:17vh;
+    
+}
+
+.myPhoto{
+	width: 17vw;
+    height:17vh;
+    background: blue;
+}
+
+
+.aboutMeContainer{
+	
+	background: yellow;
+	width: 55vw;
+	height: 50vh;
+	margin-left: 6%;
+	margin-top: 5%;
+	 box-shadow: 10px 10px;
+	
+}
+
+/*****end of the added container for about me********/
+		
+	
+	.secondContainer{
+	
+	height: 80vh;
+	width: 70vw;
+    margin-top:5%;
+	background: url(cricket.jpg) left 10% no-repeat , url(football.jpg) left 40% no-repeat,url(music.jpg) left 60% no-repeat,url(movies1.jpg) left 80% no-repeat;
+	
+	background-size: 70vw 20vh;
+    background-repeat: no-repeat;
+}
+
+
+
+/*belongs to second container**/
+
+.button1 {
+    background-color: #4CAF50; 
+    color: black; 
+    font-size: 1.8em;
+    transition-duration: 0.4s ease;
+    cursor: auto;
+    height: 5vh;
+    width: 70vw;
+   text-shadow: 2px 2px 4px white;
+    
+    }
+    
+   
+
+.button1:hover{
+    background-color: #4CAF50;
+    font-size: 1.8em;
+     color: black;
+     text-shadow: 2px 2px 4px white;
+}
+
+.hobbies{
+	height: 6vh;
+	width: 4vw;
+	 font-size: 2.0em;
+	 color:white;
+	transition: width 2s;
+	margin-top: 1%;
+	border-bottom: 6px solid red;
+}
+
+.hobbies:hover{
+	width: 300px;
+	background: orange;
+}
+
+
+
+/*end of second container***/
+
+
+
+
+/*******start of the third container*************/
+
+
+.thirdContainer{
+	
+	height: 40vh;
+	width: 70vw;
+	margin-top: 5%;
+	margin-left: 1%;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    
+}
+
+
+/*******start of the sub third container*************/
+.subThirdContainer{
+	background: gray;
+	width: 100%;
+	height: 80%;
+	position: relative;
+	
+}
+
+.img{
+	display: block;
+	width: 25vw;
+	height: 15vh;
+	margin-left: 5%;
+	opacity:0.9;
+	
+}
+
+
+.overlay1 {
+  position: absolute;
+  bottom: 70%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: visible;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  overflow: visible;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*******end of the sub third container*************/
+
+
+.subThirdContainer1{
+	background: white;
+	width: 100%;
+	height: 77%;
+	position: relative;
+	
+	
+}
+
+.img1{
+	display: block;
+	width: 25vw;
+	height: 15vh;
+	margin-left: 5%;
+	opacity:0.9;
+	
+}
+
+
+.overlay2 {
+  position: absolute;
+  bottom: 70%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: visible;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  overflow: visible;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*******end thrird container*************/
+
+	/*********start of the fourth container**********/
+
+.fourthContainer{
+	background: url(sportsback.jpg) left top no-repeat;
+	height: 50vh;
+	width: 80vw;
+	margin-top: 50%;
+	background-size: 80vw 60vh;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px grey;
+    overflow: scroll;
+}
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
